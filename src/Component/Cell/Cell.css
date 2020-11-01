@@ -1,0 +1,31 @@
+.cell {
+  height: 50px;
+  width: 50px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: inline-block;
+  margin-top: -1px;
+  margin-bottom: -1px;
+  margin-left: -1px;
+  margin-right: -1px;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.active {
+  background-color: blueviolet;
+}
+
+.visited {
+  /* background-color: aquamarine; */
+}
+
+.solve {
+  background-color: rgba(21, 100, 32);
+}
+
+.path {
+  background-color:darkgrey;
+}

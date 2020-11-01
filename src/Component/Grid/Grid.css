@@ -1,0 +1,29 @@
+.matrix {
+  line-height: 0;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-right: 2%;
+}
+
+.btn[disabled] {
+  cursor: not-allowed;
+}
